@@ -26,6 +26,7 @@ import HTTPScriptEntry from './model/HTTPScriptEntry';
 import LoadDistributionEntry from './model/LoadDistributionEntry';
 import LoadDistributionEntrySpec from './model/LoadDistributionEntrySpec';
 import NameValuePair from './model/NameValuePair';
+import OAuthToken from './model/OAuthToken';
 import Tenant from './model/Tenant';
 import TenantSpec from './model/TenantSpec';
 import TestExecution from './model/TestExecution';
@@ -39,6 +40,7 @@ import BaselineHTTPResponsesApi from './api/BaselineHTTPResponsesApi';
 import HARImportsApi from './api/HARImportsApi';
 import HTTPScriptApi from './api/HTTPScriptApi';
 import LoadDistributionApi from './api/LoadDistributionApi';
+import OAuthTokensApi from './api/OAuthTokensApi';
 import TenantsApi from './api/TenantsApi';
 import TestExecutionsApi from './api/TestExecutionsApi';
 import TestHTTPResponsesApi from './api/TestHTTPResponsesApi';
@@ -163,6 +165,12 @@ export {
     NameValuePair,
 
     /**
+     * The OAuthToken model constructor.
+     * @property {module:model/OAuthToken}
+     */
+    OAuthToken,
+
+    /**
      * The Tenant model constructor.
      * @property {module:model/Tenant}
      */
@@ -239,6 +247,12 @@ export {
     * @property {module:api/LoadDistributionApi}
     */
     LoadDistributionApi,
+
+    /**
+    * The OAuthTokensApi service constructor.
+    * @property {module:api/OAuthTokensApi}
+    */
+    OAuthTokensApi,
 
     /**
     * The TenantsApi service constructor.
